@@ -1,0 +1,22 @@
+.home-container{
+    width: 85%;
+    margin: auto;
+  
+}
+
+.home-container h3{
+    color: #4267b2; 
+    text-align: center;
+}
+
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:700px){
+    .home-container{
+        width:100%;
+    }
+}
